@@ -6,6 +6,7 @@ export default function Home() {
       <h1 className="text-4xl font-bold text-center">
         {" "}
         Aprendiendo Data Fetching - soyHenry{" "}
+        <p>{process.env.NEXT_PUBLIC_ENV_EXAMPLE}</p>
       </h1>
       <nav className="flex gap-3 text-xl">
         <Link href={"/products"}> Products </Link>
